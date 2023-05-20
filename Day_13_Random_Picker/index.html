@@ -7,27 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
         <link rel="stylesheet" href="style.css">
-        <title>Form Input Wave</title>
+        <title>Random Choice Picker</title>
     </head>
 
     <body>
         <div class="container">
-            <h1>Please Login</h1>
-            <form action="">
-                <div class="form-control">
-                    <input type="text" required>
-                    <label for="">Email</label>
-                </div>
+            <h3>Enter all of the choices divide by a coma (',').
+                <br> Press enter when you're done
+            </h3>
+            <textarea placeholder="Enter choices here..." id="textarea"></textarea>
 
-                <div class="form-control">
-                    <input type="password" required>
-                    <label for="">Password</label>
-                </div>
-
-                <button class="btn">Login</button>
-
-                <p class="text">Don't have an account? <a href="#">Register</a></p>
-            </form>
+            <div id="tags">
+                
+            </div>
         </div>
 
         <script src="script.js"></script>
